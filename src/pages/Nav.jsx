@@ -52,12 +52,12 @@ function Nav() {
           </li>
           <li>
             <NavLink to="/teamMember" className={({isActive}) => (isActive ? "active" : "")}>
-              팀원소개
+              MemberInfo
             </NavLink>
           </li>
           <li>
             <NavLink to="/introduction" className={({isActive}) => (isActive ? "active" : "")}>
-              팀 소개말
+              Introducion
             </NavLink>
           </li>
           <li>

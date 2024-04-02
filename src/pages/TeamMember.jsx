@@ -35,7 +35,7 @@ const StyledLink = styled(Link)`
   width: calc(33.333% - 20px);
   text-decoration: none;
   color: inherit;
-  
+
   img {
     width: 300px;
     height: auto;
@@ -54,7 +54,7 @@ function TeamMember() {
           index
           element={
             <>
-              <h1>팀원 소개</h1>
+              <h1>Member Information</h1>
               <MemberImageContainer>
                 <StyledLink to="/teamMember/member1">
                   <img

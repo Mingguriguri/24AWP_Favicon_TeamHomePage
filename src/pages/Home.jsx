@@ -37,7 +37,12 @@ function Home() {
       <LeftDiv>
         <h1>Team Project</h1>
         <h4>Subtitle</h4>
-        <p>content</p>
+        <br/>
+        <p>A brief introduction to the subject of the project: </p>
+        <p>Reasons for selecting a topic: </p>
+        <br/>
+        <p>How many people are hosting the show: </p>
+        <p>a simple plan: </p>
       </LeftDiv>
       <RightDiv>
         <img style={{height: "68vh", width: "45vw"}} src="https://image.fmkorea.com/files/attach/new3/20231014/486616/4207925626/6281744589/2b931992167e2da6cb54b366b1581d17.jpg"></img>
