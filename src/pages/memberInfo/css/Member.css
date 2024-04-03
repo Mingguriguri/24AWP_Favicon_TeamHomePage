@@ -16,7 +16,7 @@
 	transition: all 0.25s ease-in-out;
 }
 
-.item h3 {
+.item h1, h3, h4 {
 	margin-top: 20px !important;
 	text-align: center;
 	color: #454545;
