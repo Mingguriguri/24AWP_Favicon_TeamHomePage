@@ -66,7 +66,7 @@ function TeamMember() {
                   <p>201835532 조윤상</p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member3">
-                  <img src="https://avatars.githubusercontent.com/u/101111603?s=70&v=4" alt="Member3"></img>
+                  <img src={require('./memberInfo/images/minjeong.jpg')} alt="Member3"></img>
                   <p>201939734 김민정</p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member4">
