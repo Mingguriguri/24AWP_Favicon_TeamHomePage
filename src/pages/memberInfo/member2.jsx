@@ -4,7 +4,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { Container, ListGroup } from 'react-bootstrap';
+import { Col, Container, ListGroup } from 'react-bootstrap';
 import { FiCheckCircle } from 'react-icons/fi';
 
 import './css/Member.css'
@@ -35,20 +35,24 @@ function Member2() {
           alt='Yoon Sang'
         />
 
+
         <Card style={{ borderRadius: '12px', marginBottom: '24px', textAlign: 'center' }}>
           <Card.Body style={{ padding: '12px', backdropFilter: 'blur(10px)' }}>
+            {/* 이곳에 본인의 간단한 소개말 적어주세요 */}
             <p>Hello!! I'm Jo Yun Sang.</p>
             <p>Student of Gachon Univ Software Dept.</p>
             <p>Working hard to be a backend developer.</p>
           </Card.Body>
         </Card>
 
+        {/* 이곳에 본인 이름과 학교 적어주세요 */}
         <h3>Jo Yun Sang</h3>
         <div className="info"><p>Student of Gachon Univ</p></div>
         <div>
           <h2>
             Tech Stack
           </h2>
+          {/* 본인 tech stack 이미지를 적용시켜주세요 */}
           <div>
             <img src={require("./images/yoonsang_skills/java.png")} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
             <img src={require("./images/yoonsang_skills/javascript.png")} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
@@ -61,6 +65,7 @@ function Member2() {
           Yoon Sang On The Web Site
         </h3>
         <ul>
+          {/* 본인 관련 웹사이트 링크와 이미지 적용시켜 주세요 */}
           <StyledLink href="https://github.com/YoonYn9915">
             <span style={{ marginRight: '20px' }}>
               <img src={require("./images/yoonsang_web_icon/github.png")} alt="GitHub Icon" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
@@ -78,6 +83,7 @@ function Member2() {
           </StyledLink>
         </ul>
         <Container>
+          {/* 본인의 올해 목표 적어주세요 */}
           <h3>Goals In 2024</h3>
           <ListGroup>
             <ListGroup.Item className="d-flex align-items-center">
@@ -96,6 +102,7 @@ function Member2() {
             </ListGroup.Item>
           </ListGroup>
 
+            {/* 본인의 취미를 적어주세요 */}
           <div className="styledList" style={{ listStyleType: "none", textAlign: "left", paddingLeft: "0", marginTop: "50px" }}>
             <ul>
               <h3>Favorites</h3>
@@ -114,6 +121,7 @@ function Member2() {
             </ul>
           </div>
 
+          {/* 본인 프로필 적어주세요 */}
           <div className="styledList" style={{ listStyleType: "none", textAlign: "left", paddingLeft: "0", marginTop: "50px" }}>
             <ul>
               <h3>Profile</h3>
@@ -127,38 +135,39 @@ function Member2() {
           </div>
         </Container>
 
-        <div id='works' >
+        <div id='works' style={{  marginTop: "100px" }} >
           <h3>
             My Projects
           </h3>
 
+          {/* 본인 프로젝트 소갯말과 github링크 적용시켜 주세요 */}
           <ul>
-            <div>
+            <div style={{  marginTop: "20px" }}>
               <h3>Mingle:To-Do Web Application Project</h3>
               <p>Working Period: 2024.01 ~ 2024.03</p>
               <p>Role: Backend(Spring Framework)</p>
               <a href="https://github.com/Todo-WebApp-Project">
-                <li className="worksLi">
+                <li>
                   <div>
                     <img src={require("./images/yoonsang_project/mingle.png")} alt="mingle" style={{ width: '400px', height: '300px' }} />
                   </div>
                 </li>
               </a>
-              <p>Click Image to move Github Repository</p>
+              <p style={{color:"red"}}>Click Image to move Github Repository</p>
             </div>
-            <div>
+            <div style={{  marginTop: "100px" }}>
               <h3>Sweat:AI Blog Project</h3>
               <p>Working Period: 2024.09 ~ 2024.12</p>
               <p>Role: Frontend & Infra (React)</p>
               <a href="https://github.com/KakaoEnterprise-SWEAT">
-                <li className="worksLi">
+                <li>
                   <div>
                   <img src={require("./images/yoonsang_project/sweat.png")} alt="sweat" style={{ width: '400px', height: '300px' }} />
                   </div>
                 </li>
               </a>
             </div>
-            <div>
+            <div style={{  marginTop: "100px" }}>
               <h3>Anipet:Pet Community System</h3>
               <p>Working Period: 2023.03 ~ 2023.07</p>
               <p>Role: Backend (node & express.js)</p>
