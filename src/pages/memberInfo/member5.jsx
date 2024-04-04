@@ -31,7 +31,7 @@ function Member5() {
       <div className="item">
         <img
           style={{ borderRadius: '50%', width: '150px', height: '150px' }}
-          src={require('./images/yoonsang.jpg')}
+          src={require('./images/jihun_skills/profile.png')}
           alt='Jihun'
         />
 
