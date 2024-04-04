@@ -39,7 +39,7 @@ function Member5() {
         <Card style={{ borderRadius: '12px', marginBottom: '24px', textAlign: 'center' }}>
           <Card.Body style={{ padding: '12px', backdropFilter: 'blur(10px)' }}>
             {/* 이곳에 본인의 간단한 소개말 적어주세요 */}
-            <p>Hello!! I'm Yang ji hun.</p>
+            <p>Hello!! I'm Yang jihun.</p>
             <p>Student of Gachon Univ Finencial mathmethics Dept.</p>
             <p>Working hard to be a frontend developer.</p>
           </Card.Body>
@@ -60,7 +60,7 @@ function Member5() {
           </div>
         </div>
         <h3>
-          Ji Hun On The Web Site
+          JiHun On The Web Site
         </h3>
         <ul>
           {/* 본인 관련 웹사이트 링크와 이미지 적용시켜 주세요 */}
@@ -74,10 +74,6 @@ function Member5() {
           {/* 본인의 올해 목표 적어주세요 */}
           <h3>Goals In 2024</h3>
           <ListGroup>
-            <ListGroup.Item className="d-flex align-items-center">
-              <FiCheckCircle className="mr-3" />
-              학점 관리
-            </ListGroup.Item>
             <ListGroup.Item className="d-flex align-items-center">
               <FiCheckCircle className="mr-3" />
               공모전 수상
