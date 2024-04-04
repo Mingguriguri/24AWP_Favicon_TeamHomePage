@@ -59,23 +59,23 @@ function Member6() {
           {/* 본인 tech stack 이미지를 적용시켜주세요 */}
           <div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+              src={require("./images/minjae_skills/node.png")}
               style={{ width: "50px", height: "50px", marginRight: "10px" }}
             />
             <img
-              src={require("./images/yoonsang_skills/javascript.png")}
+              src={require("./images/minjae_skills/javascript.png")}
               style={{ width: "50px", height: "50px", marginRight: "10px" }}
             />
             <img
-              src={require("./images/yoonsang_skills/python.png")}
+              src={require("./images/minjae_skills/python.png")}
               style={{ width: "50px", height: "50px", marginRight: "10px" }}
             />
             <img
-              src={require("./images/yoonsang_skills/react.png")}
+              src={require("./images/minjae_skills/react.png")}
               style={{ width: "50px", height: "50px", marginRight: "10px" }}
             />
             <img
-              src="https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH9zLv%2FbtrjmWMOHFX%2F7Ko3OJ1Vc1fmgUw9PVZU7K%2Fimg.png"
+              src={require("./images/minjae_skills/sql.png")}
               style={{ width: "50px", height: "50px" }}
             />
           </div>
@@ -86,7 +86,7 @@ function Member6() {
           <StyledLink href="https://github.com/kareawe">
             <span style={{ marginRight: "20px" }}>
               <img
-                src={require("./images/yoonsang_web_icon/github.png")}
+                src={require("./images/minjae_web_icons/github.png")}
                 alt="GitHub Icon"
                 style={{ width: "40px", height: "40px", borderRadius: "50%" }}
               />
@@ -95,7 +95,7 @@ function Member6() {
           <StyledLink href="https://blog.naver.com/kimminjae1573">
             <span style={{ marginRight: "20px" }}>
               <img
-                src={require("./images/yoonsang_web_icon/naverBlog.jpg")}
+                src={require("./images/minjae_web_icons/naverBlog.jpg")}
                 alt="Naver Blog Icon"
                 style={{ width: "40px", height: "40px", borderRadius: "50%" }}
               />
