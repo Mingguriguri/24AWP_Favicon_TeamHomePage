@@ -74,8 +74,8 @@ function TeamMember() {
                   <p>202031512 김민재</p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member5">
-                  <img src="" alt="Member5"></img>
-                  <p></p>
+                  <img src="https://github.com/account" alt="Member5"></img>
+                  <p>202031527 양지훈</p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member6">
                   <img src="" alt="Member6"></img>
