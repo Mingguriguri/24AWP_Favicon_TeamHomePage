@@ -4,7 +4,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { Col, Container, ListGroup } from "react-bootstrap";
+import { Container, ListGroup } from "react-bootstrap";
 import { FiCheckCircle } from "react-icons/fi";
 
 import "./css/Member.css";
