@@ -26,7 +26,7 @@ function Member4() {
     <MemberDiv>
       <ImagesDiv>
         <img
-          src="https://avatars.githubusercontent.com/u/96830595?s=400&v=4"
+          src=""
           style={{ width: "400px", height: "400px", paddingRight: "100px" }}
         ></img>
         <img
@@ -36,8 +36,8 @@ function Member4() {
         ></img>
       </ImagesDiv>
       <IntroductionDiv>
-        <p>Name:김민재 </p>
-        <p>Age:24 </p>
+        <p>Name: </p>
+        <p>Age: </p>
         <p>Address: </p>
         <p>What I want to say: </p>
       </IntroductionDiv>
