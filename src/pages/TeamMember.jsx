@@ -70,16 +70,16 @@ function TeamMember() {
                   <p>201939734 김민정</p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member4">
-                  <img src="https://avatars.githubusercontent.com/u/96830595?s=400&v=4" alt="Member4"></img>
-                  <p>202031512 김민재</p>
+                  <img src="" alt="Member4"></img>
+                  <p></p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member5">
                   <img src="https://avatars.githubusercontent.com/u/79701544?v=4" alt="Member5"></img>
                   <p>202031527 양지훈</p>
                 </StyledLink>
                 <StyledLink to="/teamMember/Member6">
-                  <img src="" alt="Member6"></img>
-                  <p></p>
+                  <img src="https://avatars.githubusercontent.com/u/96830595?s=400&v=4" alt="Member6"></img>
+                  <p>202031512 김민재</p>
                 </StyledLink>
               </MemberImageContainer>
             </>
