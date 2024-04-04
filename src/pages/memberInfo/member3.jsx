@@ -222,6 +222,19 @@ function Member3() {
               </a>
               <p style={{color:"red"}}>Click Image to move Github Repository</p>
             </div>
+            <div style={{  marginTop: "50px" }}>
+              <h4>Pang: AI-based automatic memo classification in mindmap format</h4>
+              <p>Working Period: 2023.05 ~ 2023.06</p>
+              <p>Role: Full-Stack (Django framework)</p>
+              <a href="https://github.com/Mingguriguri/pang">
+                <li>
+                  <div>
+                  <img src={require("./images/minjeong_project/pang.png")} alt="sweat" style={{ width: '400px', height: '200px' }} />
+                  </div>
+                </li>
+              </a>
+              <p style={{color:"red"}}>Click Image to move Github Repository</p>
+            </div>
           </ul>
         </div>
       </div >
